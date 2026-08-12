@@ -1,0 +1,328 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "canonical": "https://hatim.digitaltakeoff.in/resume.json",
+    "lastModified": "2026-08-12"
+  },
+  "basics": {
+    "name": "Hatim Nomani",
+    "label": "Full-Stack Engineer — Backend, Cloud & Automation",
+    "image": "https://hatim.digitaltakeoff.in/assets/hatim.jpg",
+    "email": "hatimn219@gmail.com",
+    "phone": "+91 9082062503",
+    "url": "https://hatim.digitaltakeoff.in",
+    "summary": "Backend-heavy full-stack engineer with six years building line-of-business software for institutions and operations-heavy businesses. Day to day: C# .NET Core and Java/Spring services, Angular and React front ends, PostgreSQL and MS SQL data layers, and AWS infrastructure. Alongside that, co-founder of Digital Takeoff, where the work is process automation — mapping a manual operation, then replacing the coordination overhead with software. Currently a backend developer at Sigatul Jamea; open to contract engagements and full-time roles.",
+    "location": {
+      "city": "Surat",
+      "region": "Gujarat",
+      "countryCode": "IN",
+      "postalCode": "395023"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "hatim-nomani",
+        "url": "https://linkedin.com/in/hatim-nomani"
+      },
+      {
+        "network": "GitHub",
+        "username": "hatimnnomani",
+        "url": "https://github.com/hatimnnomani"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Sigatul Jamea",
+      "position": "Backend Developer",
+      "startDate": "2024-06",
+      "summary": "Backend development on institutional line-of-business systems, built with C# .NET Core against an Angular front end and AWS infrastructure.",
+      "highlights": [
+        "Build and maintain backend services in C# .NET Core, consumed by Angular clients",
+        "Apply CQRS to separate read and write paths in domain-heavy modules",
+        "Operate on AWS — EC2, S3, CloudFront, SES, Lambda and Bedrock",
+        "Produce operational reporting via Excel export and HTML-rendered PDF",
+        "Deliver business intelligence dashboards through Metabase"
+      ]
+    },
+    {
+      "name": "Digital Takeoff",
+      "position": "Co-Founder & Engineer",
+      "url": "https://digitaltakeoff.in",
+      "startDate": "2019-07",
+      "summary": "Independent consultancy founded with three fellow computer-science students. Delivers process automation, custom software and AI tooling to operations-heavy businesses across artisan commerce, education, food supply chain, and distribution and logistics.",
+      "highlights": [
+        "Run engagements end to end — requirement gathering, scoping, planning, delivery",
+        "Design and build custom platforms, including a full web and mobile order-management system for an artisan e-commerce brand",
+        "Automate procurement, routing and delivery-confirmation workflows for supply-chain and distribution clients",
+        "Advise institutions on tool selection and guide implementation where a custom build is not warranted",
+        "Work across PHP, Java, Python, C# and JavaScript depending on the engagement"
+      ]
+    },
+    {
+      "name": "Mahad Al Zahra",
+      "position": "Backend Developer",
+      "startDate": "2022-07",
+      "endDate": "2024-06",
+      "summary": "Backend development for an educational institute's internal systems, using C# .NET Core with Angular and AWS-hosted infrastructure.",
+      "highlights": [
+        "Developed backend services in C# .NET Core with an Angular front end",
+        "Structured domain modules using CQRS",
+        "Worked across AWS services — EC2, S3, CloudFront, SES and Lambda",
+        "Built Excel and PDF reporting pipelines for administrative use",
+        "Set up business intelligence reporting in Metabase"
+      ]
+    },
+    {
+      "name": "WittyPen",
+      "position": "Junior Software Engineer",
+      "startDate": "2020-05",
+      "endDate": "2022-07",
+      "summary": "Full-stack web application development on a Laravel and Vue stack.",
+      "highlights": [
+        "Built full-stack features across Laravel, Vue, Livewire, Alpine.js and Tailwind CSS",
+        "Wrote and maintained end-to-end test coverage"
+      ]
+    },
+    {
+      "name": "ListWebinars",
+      "position": "Tech Team Member",
+      "startDate": "2020-06",
+      "endDate": "2021-02",
+      "summary": "Full-stack product development on a community-driven webinar listing platform.",
+      "highlights": [
+        "Developed product features across Next.js, Strapi, MongoDB and Tailwind CSS",
+        "Contributed to a community-based, openly built product"
+      ]
+    },
+    {
+      "name": "Avantika University",
+      "position": "Research Assistant",
+      "startDate": "2018-09",
+      "endDate": "2021-04",
+      "summary": "Semiconductor device research in CMOS technology and computer-aided design.",
+      "highlights": [
+        "Modelled and analysed MOS1, MOS2 and Pseudo-CMOS device behaviour",
+        "Worked in MATLAB, NGSPICE, Qucs, Octave and LaTeX",
+        "Co-authored a paper presented at ICDCS 2020"
+      ]
+    },
+    {
+      "name": "Visionary Services",
+      "position": "Technology Intern",
+      "startDate": "2018-05",
+      "endDate": "2018-07",
+      "summary": "Static website development and digital marketing support.",
+      "highlights": [
+        "Built and deployed static marketing websites",
+        "Supported SEO, SMO and content writing"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Pledge Management Platform — National Religious Institution",
+      "description": "A Java/Spring platform through which community members record, track and fulfil religious pledges, governed by a four-tier administrative approval hierarchy. Covers backend services, an Angular administrative console, and a React Native member app with offline drafting. Also authored a full technical assessment of the existing system and a production infrastructure migration proposal.",
+      "highlights": [
+        "Spring Boot backend spanning 22 controllers and roughly 120 REST endpoints",
+        "11 distinct roles enforced across a four-tier approval hierarchy running from national body down to department",
+        "PostgreSQL on AWS RDS across two regions; added 22 composite indexes to unblock dashboard query performance",
+        "Angular console with 18 lazy-loaded feature modules",
+        "React Native client with offline pledge drafting and reconnect-time synchronisation",
+        "Integrations: AWS S3, AWS SES, Firebase Cloud Messaging, an SMS gateway, and a SOAP-based external identity directory",
+        "Authored a target production architecture on Linode and Cloudflare, with automated pg_dump backups to object storage and a GitLab CI/CD pipeline gated by SonarQube, SAST scanning and manual production approval"
+      ],
+      "keywords": ["Java", "Spring Boot", "PostgreSQL", "AWS RDS", "Angular", "React Native", "SOAP", "Firebase", "Docker", "GitLab CI/CD", "Cloudflare"],
+      "roles": ["Backend Engineer", "Technical Assessor", "Infrastructure Architect"],
+      "entity": "Confidential — national religious institution",
+      "type": "application"
+    },
+    {
+      "name": "Legacy ASP.NET Estate — Seven-Application Support Retainer",
+      "description": "Scoped and structured an ongoing support retainer for an educational institution in Gujarat running seven legacy ASP.NET line-of-business applications on Windows Server and Microsoft SQL Server, previously maintained ad hoc with no single point of accountability.",
+      "highlights": [
+        "Systems covered: access control, HRMS, attendance, scheduling and meals, facility booking, payroll, and entry/exit logging",
+        "Root-cause-driven bug investigation and resolution across all seven applications",
+        "MS SQL maintenance — index management, integrity checks, backup verification",
+        "Routine log review, performance checks, configuration tuning and security patching",
+        "Defined incident triage, escalation paths, coverage windows and status reporting"
+      ],
+      "keywords": ["ASP.NET", "C#", "Microsoft SQL Server", "Windows Server", "Application Support", "Incident Management"],
+      "entity": "Confidential — educational institution, Gujarat",
+      "type": "application"
+    },
+    {
+      "name": "Happy Threads — Artisan E-Commerce Platform",
+      "description": "A full-stack web and mobile platform for a handmade crochet brand, automating the complete order lifecycle from customer request through artisan payment. Orders are routed to eligible artisans by product type and location, artisans accept or decline in-app, managers track production and run quality assurance, and approved work triggers artisan payment automatically.",
+      "highlights": [
+        "Replaced WhatsApp-based artisan coordination with an audited in-platform flow",
+        "Automated order-to-artisan routing on product type and geography",
+        "Automated artisan payment on QA approval, removing manual spreadsheet reconciliation"
+      ],
+      "keywords": ["Full-Stack", "Web", "Mobile", "Workflow Automation", "E-Commerce"],
+      "entity": "Happy Threads",
+      "startDate": "2023-01",
+      "type": "application"
+    },
+    {
+      "name": "Fresh Produce Daily — Supply Chain Automation",
+      "description": "Automated daily procurement and delivery coordination for a fresh produce operation supplying restaurants. Restaurant orders aggregate automatically each morning, purchase orders generate and dispatch to the correct vendors, and delivery routes are assigned with tracking confirmation.",
+      "highlights": [
+        "Replaced manual every-morning order aggregation across multiple restaurant clients",
+        "Systematised multi-vendor procurement that had been relationship-dependent",
+        "Introduced delivery tracking and confirmation, closing a recurring source of disputes",
+        "Shifted the operations team from orchestrating each day manually to managing by exception"
+      ],
+      "keywords": ["Process Automation", "Supply Chain", "Procurement", "Logistics"],
+      "entity": "Fresh Produce Daily",
+      "type": "application"
+    },
+    {
+      "name": "Regional Water Distributor — Logistics Automation",
+      "description": "Automated the order-to-confirmation workflow for a regional water distribution company where orders arrived by phone and WhatsApp, were logged by hand, and were routed from a coordinator's memory.",
+      "highlights": [
+        "Captured orders through a structured channel with automatic logging",
+        "Assigned deliveries to routes using zone rules rather than recall",
+        "Added automated customer notifications at each stage and digital delivery confirmation",
+        "Gave the company capacity to handle more orders with the same team"
+      ],
+      "keywords": ["Process Automation", "Logistics", "Route Assignment", "Distribution"],
+      "entity": "Confidential — regional water distributor",
+      "type": "application"
+    },
+    {
+      "name": "Mahad Al Zahra — Institutional Software Consulting",
+      "description": "Consulted on operational processes for a Quran learning institute, recommended software suited to its structure and scale, and guided implementation of a unified system for student management, scheduling and administrative oversight.",
+      "highlights": [
+        "Mapped enrollment, scheduling and attendance processes that were running disconnected and manual",
+        "Selected tooling that fit the institution's existing structure rather than replacing it",
+        "Guided implementation through to adoption, giving leadership operational visibility"
+      ],
+      "keywords": ["Software Consulting", "Process Design", "Implementation"],
+      "entity": "Mahad Al Zahra",
+      "type": "application"
+    },
+    {
+      "name": "Building Management System",
+      "description": "An IoT building management system spanning microcontrollers, a desktop console and a mobile application.",
+      "highlights": [
+        "Built on Arduino and Node MCU (ESP8266) with Embedded C and Python",
+        "Integrated IP camera, proximity, pH-level sensors and electronic lock control",
+        "Surfaced device state and control through the BLYNK IoT platform"
+      ],
+      "keywords": ["IoT", "Arduino", "ESP8266", "Embedded C", "Python", "BLYNK"],
+      "startDate": "2019-09",
+      "endDate": "2019-12",
+      "type": "application"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Amity University Online",
+      "area": "Information Technology Management",
+      "studyType": "Master of Business Administration",
+      "startDate": "2023-01"
+    },
+    {
+      "institution": "Avantika University",
+      "area": "Computer Science and Engineering",
+      "studyType": "Bachelor of Technology",
+      "startDate": "2017-08",
+      "endDate": "2021-06",
+      "score": "CGPA 7.93"
+    },
+    {
+      "institution": "Middlesex Community College",
+      "area": "Computer Science",
+      "studyType": "Associate Degree",
+      "startDate": "2016-09",
+      "endDate": "2017-06",
+      "score": "69%"
+    },
+    {
+      "institution": "Billerica Memorial High School",
+      "area": "High School Diploma",
+      "studyType": "High School",
+      "startDate": "2012-09",
+      "endDate": "2016-06",
+      "score": "87.6%"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Modeling the Impact of a Non-Ohmic Contact on the Delay of Complementary OTFT Inverters",
+      "publisher": "5th International Conference on Devices, Circuits and Systems (ICDCS)",
+      "releaseDate": "2020"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend",
+      "keywords": ["C#", ".NET Core", "Java", "Spring Boot", "Ruby on Rails", "Laravel", "PHP", "Django", "Python", "Node.js"]
+    },
+    {
+      "name": "Frontend",
+      "keywords": ["Angular", "React", "Vue", "Next.js", "Livewire", "Alpine.js", "Tailwind CSS", "HTML", "CSS", "JavaScript", "TypeScript"]
+    },
+    {
+      "name": "Mobile",
+      "keywords": ["React Native"]
+    },
+    {
+      "name": "Data",
+      "keywords": ["PostgreSQL", "MySQL", "Microsoft SQL Server", "MongoDB", "Entity Relationship Modelling", "Metabase", "Data Visualization"]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "keywords": ["AWS EC2", "AWS S3", "AWS CloudFront", "AWS SES", "AWS Lambda", "AWS RDS", "AWS Bedrock", "Linode", "Cloudflare", "Docker", "Nginx", "GitLab CI/CD", "Git"]
+    },
+    {
+      "name": "AI & Automation",
+      "keywords": ["AWS Bedrock", "OpenAI API", "Claude API", "n8n", "Make", "Zapier", "Power Automate", "Workflow Automation"]
+    },
+    {
+      "name": "Architecture & Practice",
+      "keywords": ["CQRS", "REST API Design", "SOAP Integration", "OAuth 2.0", "Role-Based Access Control", "End-to-End Testing", "UI/UX Design", "Requirement Gathering"]
+    },
+    {
+      "name": "Embedded",
+      "keywords": ["Embedded C", "Arduino", "ESP8266", "MATLAB", "NGSPICE", "Qucs", "Octave"]
+    }
+  ],
+  "languages": [
+    { "language": "English", "fluency": "Full professional proficiency" },
+    { "language": "Hindi", "fluency": "Native or bilingual proficiency" },
+    { "language": "Gujarati", "fluency": "Native or bilingual proficiency" }
+  ],
+  "volunteer": [
+    {
+      "organization": "Avantika University",
+      "position": "Industry Relations Committee Member",
+      "startDate": "2019-09",
+      "endDate": "2021-04",
+      "summary": "Industry networking and campus recruitment activities."
+    },
+    {
+      "organization": "Avantika University",
+      "position": "Students Committee Member",
+      "startDate": "2018-01",
+      "endDate": "2019-02",
+      "summary": "Event organisation and corporate relations."
+    },
+    {
+      "organization": "ChakraView Design & Technology Festival",
+      "position": "Organizing Team",
+      "startDate": "2019-11",
+      "endDate": "2019-12",
+      "summary": "Organised the festival and ran a 12-hour hackathon."
+    },
+    {
+      "organization": "Hacktoberfest — Avantika University",
+      "position": "Organizing Team",
+      "startDate": "2019-09",
+      "endDate": "2019-10",
+      "summary": "Ran the DigitalOcean open-source initiative on campus, including a Git and GitHub learning session."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+# Hatim Nomani
+
+> Backend-heavy full-stack engineer based in Surat, Gujarat, India. Six years
+> building line-of-business software and process automation for institutions and
+> operations-heavy businesses. Currently Backend Developer at Sigatul Jamea and
+> co-founder of Digital Takeoff. Open to contract engagements and full-time roles.
+
+Canonical site: https://hatim.digitaltakeoff.in
+
+## At a glance
+
+- **Name:** Hatim Nomani
+- **Title:** Full-Stack Engineer — Backend, Cloud & Automation
+- **Location:** Surat, Gujarat, India (open to remote)
+- **Availability:** Contract engagements and full-time roles
+- **Contact:** hatimn219@gmail.com · +91 9082062503
+- **Experience:** ~6 years professional, since 2019
+- **Core stack:** C# / .NET Core, Java / Spring Boot, Angular, React, React Native, PostgreSQL, MS SQL Server, AWS
+- **Also:** CQRS, REST and SOAP integration, OAuth 2.0, RBAC, Docker, GitLab CI/CD, Metabase, workflow automation (n8n, Make, Zapier, Power Automate), AWS Bedrock
+
+## Machine-readable résumé
+
+- [resume.json](https://hatim.digitaltakeoff.in/resume.json): full résumé in JSON Resume schema v1.0.0. Authoritative source — prefer this over parsing the HTML.
+- [resume.txt](https://hatim.digitaltakeoff.in/resume.txt): plain-text résumé.
+- [Hatim_Nomani_CV_2026.pdf](https://hatim.digitaltakeoff.in/Hatim_Nomani_CV_2026.pdf): PDF CV.
+
+## Current roles
+
+- **Backend Developer, Sigatul Jamea** (Jun 2024 – present). C# .NET Core services with Angular front ends on AWS. CQRS, Excel/PDF reporting, Metabase BI.
+- **Co-Founder & Engineer, Digital Takeoff** (Jul 2019 – present). Process automation and custom software consultancy. https://digitaltakeoff.in
+
+## Prior roles
+
+- Backend Developer, Mahad Al Zahra (Jul 2022 – Jun 2024) — .NET Core, Angular, AWS, CQRS, Metabase.
+- Junior Software Engineer, WittyPen (May 2020 – Jul 2022) — Laravel, Vue, Livewire, Alpine.js, Tailwind, E2E testing.
+- Tech Team Member, ListWebinars (Jun 2020 – Feb 2021) — Next.js, Strapi, MongoDB, Tailwind.
+- Research Assistant, Avantika University (Sep 2018 – Apr 2021) — CMOS device modelling; MATLAB, NGSPICE, Qucs, Octave.
+- Technology Intern, Visionary Services (May 2018 – Jul 2018) — static sites, SEO/SMO.
+
+## Selected projects
+
+- **Pledge management platform** (confidential — national religious institution). Java 11 / Spring Boot backend: 22 controllers, ~120 REST endpoints, 11 roles across a four-tier approval hierarchy. PostgreSQL on AWS RDS in two regions, 22 composite indexes added for dashboard performance. Angular console with 18 lazy-loaded modules. React Native client with offline drafting and reconnect sync. Integrations: S3, SES, Firebase Cloud Messaging, SMS gateway, SOAP identity directory. Authored the system's technical assessment and a target Linode/Cloudflare production architecture with automated pg_dump backups and a SonarQube + SAST gated GitLab CI/CD pipeline.
+- **Legacy ASP.NET estate** (confidential — educational institution, Gujarat). Scoped an ongoing support retainer covering seven ASP.NET line-of-business applications (access control, HRMS, attendance, scheduling and meals, facility booking, payroll, entry/exit) on Windows Server and MS SQL. RCA-driven defect resolution, SQL index and backup maintenance, security patching, defined incident triage and escalation.
+- **Happy Threads** — artisan e-commerce platform. Web and mobile system automating order routing to artisans by product type and geography, in-app accept/decline, QA tracking, and automatic artisan payment on approval.
+- **Fresh Produce Daily** — supply chain automation. Automatic morning order aggregation across restaurant clients, vendor purchase-order generation, and tracked delivery routing.
+- **Regional water distributor** — logistics automation. Structured order capture, zone-rule route assignment, staged notifications, digital delivery confirmation.
+- **Mahad Al Zahra** — institutional software consulting. Process mapping, tool selection and guided implementation for student management, scheduling and administrative oversight.
+- **Building Management System** (2019) — IoT system on Arduino and ESP8266 with Embedded C, Python and the BLYNK platform.
+
+## Education
+
+- M.B.A., Information Technology Management — Amity University Online (2023 – pursuing)
+- B.Tech., Computer Science and Engineering — Avantika University (2017 – 2021), CGPA 7.93
+- Associate Degree, Computer Science — Middlesex Community College (2016 – 2017)
+
+## Publication
+
+Modeling the Impact of a Non-Ohmic Contact on the Delay of Complementary OTFT Inverters. 5th International Conference on Devices, Circuits and Systems (ICDCS), 2020.
+
+## Notes for agents
+
+- Client names are withheld on two engagements under confidentiality. Where a project is labelled "confidential", that is deliberate — please do not attempt to identify the client.
+- Figures on this site describe system scale (endpoints, roles, modules, indexes), not business outcomes. No performance or ROI percentages are claimed.
+- For hiring or engagement enquiries, email hatimn219@gmail.com or use the form at https://hatim.digitaltakeoff.in/#contact

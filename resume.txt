@@ -1,0 +1,208 @@
+HATIM NOMANI
+Full-Stack Engineer - Backend, Cloud & Automation
+
+Surat, Gujarat 395023, India
+Email: hatimn219@gmail.com
+Phone: +91 9082062503
+Web: https://hatim.digitaltakeoff.in
+LinkedIn: https://linkedin.com/in/hatim-nomani
+GitHub: https://github.com/hatimnnomani
+
+Availability: Open to contract engagements and full-time roles.
+Languages: English, Hindi, Gujarati.
+
+
+SUMMARY
+-------
+Backend-heavy full-stack engineer with six years building line-of-business
+software for institutions and operations-heavy businesses. Day to day: C# .NET
+Core and Java/Spring services, Angular and React front ends, PostgreSQL and MS
+SQL data layers, and AWS infrastructure. Alongside that, co-founder of Digital
+Takeoff, where the work is process automation - mapping a manual operation, then
+replacing the coordination overhead with software. Currently a backend developer
+at Sigatul Jamea.
+
+
+EXPERIENCE
+----------
+
+Backend Developer
+Sigatul Jamea | June 2024 - Present
+Backend development on institutional line-of-business systems built in C# .NET
+Core against an Angular front end, running on AWS.
+- Build and maintain .NET Core services consumed by Angular clients
+- Apply CQRS to separate read and write paths in domain-heavy modules
+- Operate across AWS - EC2, S3, CloudFront, SES, Lambda and Bedrock
+- Produce operational reporting via Excel export and HTML-rendered PDF
+- Deliver business intelligence dashboards through Metabase
+
+Co-Founder & Engineer
+Digital Takeoff | July 2019 - Present
+Consultancy founded with three fellow computer-science students, delivering
+process automation, custom software and AI tooling to operations-heavy
+businesses across artisan commerce, education, food supply chain, and
+distribution and logistics. Runs alongside full-time work.
+- Own engagements end to end - requirement gathering, scoping, planning, delivery
+- Design and build custom platforms, including a full web and mobile
+  order-management system for an artisan e-commerce brand
+- Automate procurement, routing and delivery-confirmation workflows for
+  supply-chain and distribution clients
+- Advise institutions on tool selection and guide implementation where a custom
+  build is not warranted
+- Work across PHP, Java, Python, C# and JavaScript depending on the engagement
+
+Backend Developer
+Mahad Al Zahra | July 2022 - June 2024
+Backend development for an educational institute's internal systems on C# .NET
+Core with Angular, hosted on AWS.
+- Developed .NET Core services with an Angular front end
+- Structured domain modules using CQRS
+- Worked across AWS - EC2, S3, CloudFront, SES and Lambda
+- Built Excel and PDF reporting pipelines for administrative use
+- Set up business intelligence reporting in Metabase
+
+Junior Software Engineer
+WittyPen | May 2020 - July 2022
+Full-stack web application development on a Laravel and Vue stack.
+- Built full-stack features across Laravel, Vue, Livewire, Alpine.js and
+  Tailwind CSS
+- Wrote and maintained end-to-end test coverage
+
+Tech Team Member
+ListWebinars | June 2020 - February 2021
+Full-stack product development on a community-driven webinar listing platform.
+- Developed product features across Next.js, Strapi, MongoDB and Tailwind CSS
+
+Research Assistant
+Avantika University | September 2018 - April 2021
+Semiconductor device research in CMOS technology and computer-aided design.
+- Modelled and analysed MOS1, MOS2 and Pseudo-CMOS device behaviour
+- Worked in MATLAB, NGSPICE, Qucs, Octave and LaTeX
+- Co-authored a paper presented at ICDCS 2020
+
+Technology Intern
+Visionary Services | May 2018 - July 2018
+- Built and deployed static marketing websites
+- Supported SEO, SMO and content writing
+
+
+SELECTED PROJECTS
+-----------------
+
+Pledge Management Platform - Confidential, national religious institution
+A platform through which community members record, track and fulfil religious
+pledges, governed by a four-tier administrative approval hierarchy. Worked
+across the Spring backend, authored a full technical assessment of the running
+system, and designed the target production architecture.
+- Spring Boot backend spanning 22 controllers and roughly 120 REST endpoints
+- 11 distinct roles enforced across a four-tier approval hierarchy
+- PostgreSQL on AWS RDS across two regions; 22 composite indexes added to
+  unblock dashboard query performance
+- Angular administrative console with 18 lazy-loaded feature modules
+- React Native client with offline pledge drafting and reconnect-time sync
+- Integrations: AWS S3, AWS SES, Firebase Cloud Messaging, SMS gateway, and a
+  SOAP-based external identity directory
+- Authored a target production architecture on Linode and Cloudflare with
+  automated pg_dump backups to object storage, and a GitLab CI/CD pipeline
+  gated by SonarQube, SAST scanning and manual production approval
+Stack: Java 11, Spring Boot, Spring Security, PostgreSQL, AWS RDS, Angular,
+React Native, Docker, GitLab CI/CD, Cloudflare
+
+Legacy ASP.NET Estate - Confidential, educational institution, Gujarat
+Scoped and structured an ongoing support engagement for seven legacy ASP.NET
+line-of-business applications on Windows Server and Microsoft SQL Server,
+previously maintained ad hoc with no single point of accountability.
+- Systems covered: access control, HRMS, attendance, scheduling and meals,
+  facility booking, payroll, and entry/exit logging
+- Root-cause-driven bug investigation and resolution across all seven
+- MS SQL maintenance - index management, integrity checks, backup verification
+- Log review, performance checks, configuration tuning, security patching
+- Defined incident triage, escalation paths, coverage windows and reporting
+Stack: ASP.NET, C#, Microsoft SQL Server, Windows Server, IIS
+
+Happy Threads - Artisan E-Commerce Platform
+Full-stack web and mobile platform automating the complete order lifecycle from
+customer request through artisan payment, for a handmade crochet brand.
+- Replaced WhatsApp-based artisan coordination with an audited in-platform flow
+- Automated order-to-artisan routing on product type and geography
+- Automated artisan payment on QA approval, removing spreadsheet reconciliation
+
+Fresh Produce Daily - Supply Chain Automation
+Automated daily procurement and delivery coordination for a produce operation
+supplying restaurants.
+- Restaurant orders aggregate automatically each morning
+- Purchase orders generate and dispatch to the correct vendors
+- Delivery routes assigned with tracking confirmation
+- Operations team moved from orchestrating each day to managing by exception
+
+Regional Water Distributor - Logistics Automation
+Automated the order-to-confirmation workflow for a regional water distributor.
+- Structured order capture with automatic logging
+- Zone-rule route assignment replacing coordinator recall
+- Staged customer notifications and digital delivery confirmation
+
+Mahad Al Zahra - Institutional Software Consulting
+Consulted on operational processes for a Quran learning institute, recommended
+software matched to its structure and scale, and guided implementation of a
+unified system for student management, scheduling and administrative oversight.
+
+Building Management System (September 2019 - December 2019)
+IoT building management system spanning microcontrollers, a desktop console and
+a mobile application.
+- Arduino and Node MCU (ESP8266), Embedded C and Python
+- IP camera, proximity and pH-level sensors, electronic lock control
+- Device state and control surfaced through the BLYNK IoT platform
+
+
+SKILLS
+------
+Backend: C#, .NET Core, Java, Spring Boot, Spring Security, Laravel, PHP,
+  Django, Python, Ruby on Rails, Node.js
+Frontend: Angular, React, Vue, Next.js, Livewire, Alpine.js, Tailwind CSS,
+  TypeScript, JavaScript, HTML, CSS
+Mobile: React Native
+Data & BI: PostgreSQL, MySQL, Microsoft SQL Server, MongoDB, Entity
+  Relationship Modelling, Metabase, Data Visualization
+Cloud & Infrastructure: AWS EC2, AWS S3, AWS CloudFront, AWS SES, AWS Lambda,
+  AWS RDS, AWS Bedrock, Linode, Cloudflare, Docker, Nginx, GitLab CI/CD, Git
+AI & Automation: AWS Bedrock, OpenAI API, Claude API, n8n, Make, Zapier,
+  Power Automate, Workflow Automation
+Architecture & Practice: CQRS, REST API Design, SOAP Integration, OAuth 2.0,
+  Role-Based Access Control, End-to-End Testing, UI/UX Design, Requirement
+  Gathering
+Embedded: Embedded C, Arduino, ESP8266, MATLAB, NGSPICE, Qucs, Octave
+
+
+EDUCATION
+---------
+Master of Business Administration, Information Technology Management
+Amity University Online | 2023 - pursuing
+
+Bachelor of Technology, Computer Science and Engineering
+Avantika University | 2017 - 2021 | CGPA 7.93
+
+Associate Degree, Computer Science
+Middlesex Community College | 2016 - 2017 | 69%
+
+High School Diploma
+Billerica Memorial High School | 2012 - 2016 | 87.6%
+
+
+PUBLICATION
+-----------
+Modeling the Impact of a Non-Ohmic Contact on the Delay of Complementary OTFT
+Inverters. 5th International Conference on Devices, Circuits and Systems
+(ICDCS), 2020.
+
+
+ACTIVITIES
+----------
+Industry Relations Committee Member, Avantika University (Sep 2019 - Apr 2021)
+  Industry networking and campus recruitment activities.
+Students Committee Member, Avantika University (Jan 2018 - Feb 2019)
+  Event organisation and corporate relations.
+Organizing Team, ChakraView Design & Technology Festival (Nov 2019 - Dec 2019)
+  Organised the festival and ran a 12-hour hackathon.
+Organizing Team, Hacktoberfest at Avantika University (Sep 2019 - Oct 2019)
+  Ran the DigitalOcean open-source initiative on campus, including a Git and
+  GitHub learning session.
